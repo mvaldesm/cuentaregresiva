@@ -1,6 +1,6 @@
 // Cuánto falta para que se vaya el BORIS:
 
-const targetDate = new Date("March 11, 2026 00:00:00").getTime();
+const targetDate = new Date("March 11, 2026 00:00:00 GMT-0400").getTime();
 let x = setInterval(() => {
   let ahora = new Date().getTime();
   let falta = targetDate - ahora;
